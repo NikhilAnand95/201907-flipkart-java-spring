@@ -1,0 +1,8 @@
+IntelliJ Idea: 
+
+https://www.jetbrains.com/help/idea/migrating-from-eclipse-to-intellij-idea.html
+
+https://www.jetbrains.com/help/idea/discover-intellij-idea.html
+
+Video Tutorial
+https://www.jetbrains.com/idea/documentation/
