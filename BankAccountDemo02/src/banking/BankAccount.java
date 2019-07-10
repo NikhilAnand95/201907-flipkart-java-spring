@@ -1,4 +1,4 @@
-package in.conceptarchitect.banking;
+package banking;
 
 public class BankAccount {
 
@@ -6,14 +6,18 @@ public class BankAccount {
     private String name;
     private double balance;
     private String password;
-    private double interestRate;
+    private static  double interestRate;//=12;
 
-    public BankAccount(int accountNumber, String name, double balance, String password, double interestRate) {
+    static{
+        interestRate=12;
+    }
+
+    public BankAccount(int accountNumber, String name, double balance, String password) {
         this.accountNumber = accountNumber;
         this.name = name;
         this.balance = balance;
         this.password = password;
-        this.interestRate = interestRate;
+        //this.interestRate = interestRate;
     }
 
 
@@ -59,9 +63,11 @@ public class BankAccount {
         return balance;
     }
 
-    public double getInterestRate() {
+    public static double getInterestRate() {
         return interestRate;
     }
 
-
+    public static void setInterestRate(double rate){
+        interestRate=rate;
+    }
 }
