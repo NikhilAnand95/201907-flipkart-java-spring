@@ -1,6 +1,5 @@
-package calculations;
+package in.conceptarchitect.calculations;
 
-import calculations.Factorial;
 
 public class Combination{
 

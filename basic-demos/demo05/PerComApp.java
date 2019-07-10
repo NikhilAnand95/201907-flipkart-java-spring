@@ -2,15 +2,15 @@
 //import calculation.*
 
 
-import calculations.Permutation;
-import calculations.Combination;
+import in.conceptarchitect.calculations.Permutation;
+import in.conceptarchitect.calculations.Combination;
 
 
 
 class PerComApp{
 	public static void main(String [] args){		
-		int n=utils.Input.readInt("n? ");
-		int r=utils.Input.readInt("r? ");
+		int n=in.conceptarchitect.utils.Input.readInt("n? ");
+		int r=in.conceptarchitect.utils.Input.readInt("r? ");
 
 		int p=Permutation.calculate(n,r);
 		int c=Combination.calculate(n,r);

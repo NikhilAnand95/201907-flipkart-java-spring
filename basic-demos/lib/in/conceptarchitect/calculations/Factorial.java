@@ -1,4 +1,4 @@
-package calculations;
+package in.conceptarchitect.calculations;
 
 public class Factorial{
 	public static int factorial(int x){

@@ -1,6 +1,6 @@
-package utils;
+package in.conceptarchitect.utils;
 
-import calculations.*;
+
 
 public class Input{
 
