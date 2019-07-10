@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab706f6-33d2-44b0-ba20-dde8eb311744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo02/src/banking/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo02/src/banking/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/conceptarchitect/banking/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/conceptarchitect/banking/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/conceptarchitect/banking/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/conceptarchitect/banking/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAccountDemo02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankAccountDemo02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAccountDemo02/src/banking/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankAccountDemo02/src/banking/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAccountDemo02/src/banking/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankAccountDemo02/src/banking/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

@@ -1,11 +1,11 @@
-package banking;
+package in.conceptarchitect.banking;
 
 public class BankAccount {
 
     private int accountNumber;
     private String name;
-    private double balance;
-    private String password;
+    protected double balance;
+    protected String password;
     private static  double interestRate;//=12;
     private static int accountCount=0;
 

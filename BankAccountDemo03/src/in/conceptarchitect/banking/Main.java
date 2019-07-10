@@ -1,4 +1,4 @@
-package banking;
+package in.conceptarchitect.banking;
 
 public class Main {
 
@@ -12,20 +12,21 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        BankAccount a1=new BankAccount("Vivek",20000, "p@ss");
-        BankAccount a2=new BankAccount("Shivanshi",30000,"password1");
+        BankAccount a1=new SavingsAccount("Vivek",20000, "p@ss");
 
         showAccount(a1);
-        showAccount(a2);
-
-        //a1.setInterestRate(15);
-
         BankAccount.setInterestRate(18);
+        a1.creditInterest();
 
-
+        a1.deposit(10000);
 
         showAccount(a1);
-        showAccount(a2);
+
+        System.out.println(a1.withdraw(27000,"p@ss"));
+
+        System.out.println(a1.withdraw(24000,"p@ss"));
+
+        showAccount(a1);
 
 
 

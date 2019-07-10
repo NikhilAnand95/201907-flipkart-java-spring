@@ -1,11 +1,11 @@
-package banking;
+package in.conceptarchitect.banking;
 
 public class BankAccount {
 
     private int accountNumber;
     private String name;
-    private double balance;
-    private String password;
+    protected double balance;
+    protected String password;
     private static  double interestRate;//=12;
     private static int accountCount=0;
 
@@ -30,26 +30,38 @@ public class BankAccount {
         this.name = name;
     }
 
-    public boolean deposit(double amount){
-        if(amount>0) {
-            balance += amount;
-            return true;
-        }
-        else{
-            return false;
-        }
+    public void deposit(double amount){
+
+        checkDenomination(amount);
+        balance += amount;
+
+
+
     }
 
-    public boolean withdraw(double amount,String password){
-        if(amount<0)
-            return false;
+    public void withdraw(double amount,String password){
+        checkDenomination(amount);
         if (amount>balance)
-            return false;
-        if(! this.password.equals(password))
-            return false;
+            throw new InsufficientBalanceException(accountNumber,"Insufficient Balance", amount-balance);
+
+        authenticate(password);
+
         balance-=amount;
-        return true;
+
     }
+
+    private void checkDenomination(double amount) {
+        if(amount<0)
+            //return false;
+            throw new InvalidDenominationException(accountNumber,"Amount Must be Positive");
+    }
+
+    private void authenticate(String password) {
+        if(! this.password.equals(password))
+            throw new InvalidCredentialsException(accountNumber,"Invalid Credentials");
+    }
+
+
 
     public void creditInterest(){
         balance+=(balance*interestRate/1200);
