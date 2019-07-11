@@ -45,11 +45,18 @@ public class BankAccount {
             return false;
         if (amount>balance)
             return false;
-        if(! this.password.equals(password))
+        if (authenticate(password))
             return false;
         balance-=amount;
         return true;
     }
+
+    private boolean authenticate(String password) {
+        if(! this.password.equals(password))
+            return true;
+        return false;
+    }
+
 
     public void creditInterest(){
         balance+=(balance*interestRate/1200);
@@ -70,5 +77,19 @@ public class BankAccount {
 
     public static void setInterestRate(double rate){
         interestRate=rate;
+    }
+
+    public static boolean transfer(BankAccount source, BankAccount target, int amount, String password){
+
+        if (source==null)
+            return false;
+        if(target==null)
+            return false;
+        if (!source.withdraw(amount,password))
+            return false;
+
+        return target.deposit(amount);
+
+
     }
 }

@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8992c6f-c0df-4f93-91f9-257cde8a0704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo03/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo03/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo03/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo03/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo03/BankAccountDemo03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo03/src/in/conceptarchitect/banking/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo03/src/in/conceptarchitect/banking/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo03/src/in/conceptarchitect/banking/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/BankAccountDemo04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/src/in/conceptarchitect/banking/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/src/in/conceptarchitect/banking/BankingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/src/in/conceptarchitect/banking/InsufficientBalanceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/src/in/conceptarchitect/banking/InvalidCredentialsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/src/in/conceptarchitect/banking/InvalidDenominationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/src/in/conceptarchitect/banking/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/src/in/conceptarchitect/banking/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BankAccountDemo04/src/in/conceptarchitect/utils/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankAccountDemo01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankAccountDemo01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banking/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banking/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banking/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAccountDemo03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankAccountDemo03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAccountDemo04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankAccountDemo04/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
