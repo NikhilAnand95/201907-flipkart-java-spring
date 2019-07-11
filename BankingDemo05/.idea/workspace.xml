@@ -2,17 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3430ba1-a8f8-4caf-b6ff-57c77642ad95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Hunter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/SpecialBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Speciality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/reflection/ReflectionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/AdvancedCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/ConsoleDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/KeyNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/Miain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/SimpleCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/test/java/in/conceptarchitect/calculator/AdvancedCalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Camel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Camel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Parrot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Reptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Reptile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AnimalsDemo01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalsDemo01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Eagle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Mammal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Reptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Reptile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalsDemo01/src/in/conceptarchitect/animals/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -121,7 +136,9 @@
     <option name="width" value="981" />
     <option name="height" value="1044" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -198,6 +215,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />

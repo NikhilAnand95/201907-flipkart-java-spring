@@ -1,5 +1,6 @@
 package in.conceptarchitect.animals;
 
+@SpecialBehavior(name="desertRide")
 public class Camel extends Mammal {
 
 	

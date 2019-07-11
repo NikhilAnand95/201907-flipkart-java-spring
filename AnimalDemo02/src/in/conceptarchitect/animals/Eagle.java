@@ -8,7 +8,7 @@ public class Eagle extends Bird implements  Hunter{
 		System.out.println(type()+" is flesh eater");
 	}
 
-	
+	@Speciality
 	public void hunt() {
 		System.out.println(type()+ "is a flying hunter");
 	}

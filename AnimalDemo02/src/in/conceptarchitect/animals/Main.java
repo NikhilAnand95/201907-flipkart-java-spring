@@ -1,76 +1,50 @@
 package in.conceptarchitect.animals;
 
+import in.conceptarchitect.reflection.ReflectionHelper;
+
 public class Main {
 
-    public static void main(String []args){
+    public static void main(String []args) throws ClassNotFoundException {
 
-        Animal [] animals={
-          new Tiger(),
-          new Horse(),
-          new Eagle(),
-          new Snake(),
-          new Crocodile(),
-          new Dog(),
-          new Camel(),
-          new Leopard(),
-          //new Mammal(),
-        new Cow(),
-        //new Reptile(),
-          new Parrot(),
-          //new Bird(),
-        //  new Cat(),
-                //can't create an instance of an abstract class
-         // new Animal(),
-        };
+        //demo01();
+        String className=Input.readString("class name?");
 
+        if(!className.contains("."))
+            className="in.conceptarchitect.animals."+className;
 
-        for(Animal animal : animals){
-            System.out.println("Animal is "+animal.type());
-            animal.move();
-            animal.eat();
+        Class cls=Class.forName(className);
+        //ReflectionHelper.useSpeciality(cls);
 
-            //huntIfYouAreTiger(animal);
-
-            if(animal instanceof  Hunter){
-                Hunter h=(Hunter) animal;
-                h.hunt();
-            }
-
-            System.out.println();
-        }
+        ReflectionHelper.useSpecialBehavior(cls);
 
 
 
+        //ReflectionHelper.showInfo(cls);
 
+        //ReflectionHelper.useObject(cls);
+
+        //invokeSafeTest(tiger, horse);
     }
 
-    private static void huntIfYouAreTiger(Animal animal) {
-        if(animal instanceof Tiger) {
-            Tiger tiger = (Tiger) animal;
-            tiger.hunt();
-        }
+    private static void invokeSafeTest() {
+        Tiger tiger=new Tiger();
+        Horse horse=new Horse();
+
+        ReflectionHelper.invokeSafe(tiger,"hunt"); //will be caleld
+
+        ReflectionHelper.invokeSafe(horse,"hunt"); //will not be invoked
+
+        ReflectionHelper.invokeSafe(tiger,"ride"); //will be caleld
+
+        ReflectionHelper.invokeSafe(horse,"ride"); //will not be invoked
     }
 
-    private static void arrayDemo() {
-        int [] values1=new int [5];
-        int values2[];
+    private static void demo01() {
+        Tiger tiger=new Tiger();
 
-        int values3[]={2,3,9,4,1};
-
-        values2=new int [10];
-
-        for(int i=0;i< values1.length;i++){
-            values1[i]=i*10;
-
-        }
-
-        for(int value : values1)
-            System.out.print(value+"\t");
-        System.out.println();
-        for(int value : values3)
-            System.out.print(value+"\t");
-        System.out.println();
-        for(int i=0;i<20;i++)
-            values2[i]=i*100;
+        Class c1=Tiger.class;
+        Class c2=tiger.getClass();
+        //ReflectionHelper.showInfo(c1);
+        ReflectionHelper.showInfo(Horse.class);
     }
 }

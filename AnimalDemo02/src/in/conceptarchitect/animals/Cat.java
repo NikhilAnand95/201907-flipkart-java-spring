@@ -9,7 +9,7 @@ public abstract class Cat extends Mammal implements  Hunter{
 		System.out.println(type()+" is a flesh eater");
 	
 	}
-	
+	@Speciality
 	public void hunt() {
 		System.out.println(type()+" hunts its prey");
 	}

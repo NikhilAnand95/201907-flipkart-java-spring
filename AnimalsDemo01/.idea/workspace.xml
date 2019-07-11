@@ -2,17 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce41b2f6-3bf7-4506-a886-b712bf4a0f79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Hunter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/SpecialBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Speciality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/reflection/ReflectionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/AdvancedCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/ConsoleDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/KeyNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/Miain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/main/java/in/conceptarchitect/calculator/SimpleCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unittest-demo/src/test/java/in/conceptarchitect/calculator/AdvancedCalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Camel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Camel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Parrot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Reptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalDemo02/src/in/conceptarchitect/animals/Reptile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Eagle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Mammal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Reptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Reptile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/conceptarchitect/animals/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BankingDemo05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingDemo05/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="-7">
               <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
             </state>
           </provider>
@@ -39,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
+            <state relative-caret-position="-7">
               <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
             </state>
           </provider>
@@ -48,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Eagle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
+            <state relative-caret-position="-7">
               <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
             </state>
           </provider>
@@ -57,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Mammal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="-7">
               <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
@@ -66,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Snake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="-7">
               <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
@@ -75,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Reptile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="-7">
               <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
             </state>
           </provider>
@@ -84,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Bird.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="-7">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="e#105#106#0" expanded="true" />
@@ -99,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
+            <state relative-caret-position="-7">
               <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
             </state>
           </provider>
@@ -108,7 +123,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Hunter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
+            <state relative-caret-position="90">
               <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
             </state>
           </provider>
@@ -117,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="-7">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="method#sleep#0;class#Animal#0" />
@@ -258,6 +273,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -339,7 +355,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="-7">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="method#sleep#0;class#Animal#0" />
@@ -353,14 +369,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Mammal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="-7">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Bird.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="-7">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#105#106#0" expanded="true" />
@@ -373,49 +389,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Snake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="-7">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Reptile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="-7">
           <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="-7">
           <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
+        <state relative-caret-position="-7">
           <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Eagle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
+        <state relative-caret-position="-7">
           <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
+        <state relative-caret-position="-7">
           <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/conceptarchitect/animals/Hunter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="90">
           <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
         </state>
       </provider>
