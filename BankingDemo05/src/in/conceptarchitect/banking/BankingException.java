@@ -1,6 +1,6 @@
 package in.conceptarchitect.banking;
 
-public class BankingException extends RuntimeException{
+public class BankingException extends Exception{
 
     int accountNumber;
 

@@ -9,7 +9,7 @@ public class SavingsAccount extends BankAccount{
 
     }
 
-    public void withdraw(double amount, String password){
+    public void withdraw(double amount, String password) throws BankingException{
 
         if(amount> balance+5000)
             throw new InsufficientBalanceException(getAccountNumber(),"Insufficient Min Balance", amount-balance-5000);

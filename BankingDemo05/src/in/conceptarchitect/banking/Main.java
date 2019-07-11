@@ -62,13 +62,13 @@ public class Main {
             int amount=Input.readInt("Amount?");
             a1.withdraw(amount, password);
             System.out.println("Amount withdrawn successfully");
-        }catch(RuntimeException ex){
+        }catch(BankingException ex){
             System.out.println("Error: "+ex.getMessage());
         }
 
     }
 
-    private static void tryWithdraw1(BankAccount a1) {
+    private static void tryWithdraw1(BankAccount a1) throws BankingException {
         try {
             String password= Input.readString("password?");
             int amount=Input.readInt("Amount?");

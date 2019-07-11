@@ -30,7 +30,7 @@ public class BankAccount {
         this.name = name;
     }
 
-    public void deposit(double amount){
+    public void deposit(double amount) throws InvalidDenominationException {
 
         checkDenomination(amount);
         balance += amount;
@@ -39,12 +39,12 @@ public class BankAccount {
 
     }
 
-    private void authenticate(String password) {
+    private void authenticate(String password) throws InvalidCredentialsException {
         if(! this.password.equals(password))
             throw new InvalidCredentialsException(accountNumber,"Invalid Credentials");
     }
 
-    public void withdraw(double amount,String password){
+    public void withdraw(double amount,String password) throws InvalidCredentialsException, InsufficientBalanceException, InvalidDenominationException, BankingException {
         checkDenomination(amount);
         if (amount>balance)
             throw new InsufficientBalanceException(accountNumber,"Insufficient Balance", amount-balance);
@@ -52,7 +52,7 @@ public class BankAccount {
         balance-=amount;
     }
 
-    public static void transfer(BankAccount source, BankAccount target,int amount, String password){
+    public static void transfer(BankAccount source, BankAccount target,int amount, String password) throws BankingException{
         if(source==null)
             throw new BankingException(0,"Invalid Source Account");
         if (target==null)
@@ -63,7 +63,7 @@ public class BankAccount {
 
     }
 
-    private void checkDenomination(double amount) {
+    private void checkDenomination(double amount) throws InvalidDenominationException{
         if(amount<0)
             //return false;
             throw new InvalidDenominationException(accountNumber,"Amount Must be Positive");
